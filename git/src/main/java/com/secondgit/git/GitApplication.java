@@ -8,6 +8,13 @@ public class GitApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GitApplication.class, args);
+		int a=10;
+		int b=10;
+		if(a==b){
+		System.out.print("Hi Pommi");
+		}
+		else
+		return "Bye Pommi";
 	}
 
 }
